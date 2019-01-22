@@ -1,0 +1,55 @@
+{
+  "name": "html-webpack-inline-code-plugin",
+  "version": "1.0.0",
+  "description": "Inline Code tag for the HTML Webpack Plugin",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "",
+    "pretest": "semistandard",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cklwblove/html-webpack-inline-code-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "inline-code",
+    "template"
+  ],
+  "author": "lwbhtml@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cklwblove/html-webpack-inline-code-plugin/issues"
+  },
+  "homepage": "https://github.com/cklwblove/html-webpack-inline-code-plugin",
+  "devDependencies": {
+    "@types/webpack": "^4.4.16",
+    "commitizen": "3.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "semistandard": "^12.0.1",
+    "standard-version": "4.4.0",
+    "webpack": "^4.20.2"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^2.0.0 || ^3.0.0",
+    "webpack": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
+  "engines": {
+    "node": ">=6.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
